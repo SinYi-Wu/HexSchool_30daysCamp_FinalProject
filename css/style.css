@@ -31,9 +31,11 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
+ul {
 	list-style: none;
 }
+/* 把OL拿掉 */
+
 blockquote, q {
 	quotes: none;
 }
