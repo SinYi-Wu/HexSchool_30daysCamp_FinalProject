@@ -1,0 +1,295 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+
+*, *::before, *::after{
+  box-sizing: border-box;
+  /* outline: 1px solid; */
+}
+
+body{
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+img{
+  vertical-align: middle;
+  width: 100%;
+  height: auto;
+}
+
+a{
+  display: inline-block;
+  text-decoration: none;
+  color: #0027D5;
+}
+
+.container{
+  max-width: 1920px;
+  margin: 0 auto; 
+}
+
+.header{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.menu a{
+  color: #000000;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.menu a:hover{
+  color: #0027D5;
+}
+
+.theme{
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  border-top: 1px solid #6C757D;
+  border-bottom: 1px solid #6C757D;
+  margin-bottom: 80px;
+}
+
+.theme-img{
+  width: 48%;
+}
+
+.theme-content{
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.theme-content time{
+  margin-bottom: 4px;
+}
+
+.theme-content .hashtag{
+  /* color: #0027D5; */
+  font-size: 24px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.theme-content .theme-btn{
+  border: 1px solid blue;
+  padding: 6px 12px;
+  border-radius:40px;
+  background: #0027D5;
+  color: #fff;
+}
+
+.theme-content .theme-btn:hover{
+  background: red;
+  border: 1px solid red;
+}
+
+.theme-content .link{
+  display: flex;
+  align-items: center;
+}
+
+.theme-content .theme-title{
+  font-size: 28px;
+  font-weight: 700;
+}
+
+@media(max-width:992px){
+  .theme{
+    flex-wrap: wrap;
+    height: auto;
+    margin-bottom: 0px;
+  }
+  .theme-img{
+    width: 100%;
+  }
+  .theme-content{
+    width: 100%;
+    padding: 48px 12px;
+  }
+
+}
+
+
+.content{
+  margin-bottom: 80px;
+  width: 636px;
+  margin: 0 auto;
+}
+
+.content-item{
+  margin-bottom: 48px;
+}
+
+.content-item h2{
+  color: #0027D5;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.content-item img{
+  margin-bottom: 24px;
+}
+
+.content-item h3{
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.content-item-text{
+  margin-bottom: 8px;
+}
+
+.content-item-container{
+  margin-bottom: 24px;
+}
+
+.content-item-sum{
+  background: #EDEDED;
+  display: block;
+  padding: 24px;
+  border-radius: 24px;
+  font-weight: 700;
+}
+
+/* 處理ul、li */
+.content-item-container ul {
+  list-style-type: disc;         /* 預設實心圓點樣式 */
+  list-style-position: outside;  /* 點點顯示在外側（左邊），保留縮排感 */
+  padding-left: 1.5em;           /* 給整個ul一點左內距，讓點點與內容有空間 */
+  margin-left: 0;                /* 取消瀏覽器預設的左邊外距，避免影響排版 */
+}
+
+.content-item-container ol{
+  list-style-position: inside;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.contact-link{
+  text-decoration: underline;
+}
+
+
+
+
+.page ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.page a{
+  border: 1px solid #000000;
+  border-radius: 40px;
+  padding: 8px 16px;
+  color: #4B4B4B;
+  margin-bottom: 80px;
+}
+
+.page a:hover{
+  color:#fff;
+  background: #4B4B4B;
+}
+
+@media(max-width:992px){
+  .content{
+    max-width: 100%;
+    padding: 64px 12px;
+  }
+  .page a{
+    margin-bottom: 0;
+  }
+
+}
+
+.contact{
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: #FBFBFB;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 312px;
+  padding-right: 312px;
+}
+
+.email{
+  font-size: 32px;
+}
+
+.contact-btn{
+  display: flex;
+}
+
+.copyright{
+  text-align: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+@media(max-width:1300px){
+  .contact{
+    display: none;
+  }
+
+}
