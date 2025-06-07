@@ -221,6 +221,7 @@ a{
 }
 
 .content-item-container ol{
+  list-style-type: decimal;  
   list-style-position: inside;
   padding-left: 0;
   margin-left: 0;
