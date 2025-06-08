@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+  background: #FBFBFB;
 }
 ul {
 	list-style: none;
@@ -266,14 +267,16 @@ a{
 
 }
 
+.footer{
+  border-top: 1px solid #6C757D;
+}
 .contact{
   padding-top: 80px;
   padding-bottom: 80px;
-  background: #FBFBFB;
   display: flex;
   justify-content: space-between;
-  padding-left: 312px;
-  padding-right: 312px;
+  max-width: 1296px;
+  margin: 0 auto;
 }
 
 .email{
@@ -282,12 +285,14 @@ a{
 
 .contact-btn{
   display: flex;
+  gap: 4px;
 }
 
 .copyright{
   text-align: center;
   padding-top: 24px;
   padding-bottom: 24px;
+  background: #FFF;
 }
 
 @media(max-width:1300px){
