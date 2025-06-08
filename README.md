@@ -12,8 +12,8 @@
 
 ## 💡 備註說明
 
-- 本網站依據 🎨 [六角學院 Figma 設計稿](https://www.figma.com/design/bBHUp0TeM0yjAlkjtyxQJI/2025ver.-%E9%AB%94%E9%A9%97%E7%87%9F%E5%AD%B8%E7%94%9F%E8%A8%AD%E8%A8%88%E7%A8%BF?node-id=236-1109) 製作。
+- 本網站依據 🎨 [六角學院 Figma 設計稿](https://www.figma.com/design/bBHUp0TeM0yjAlkjtyxQJI/2025ver.-%E9%AB%94%E9%A9%97%E7%87%9F%E5%AD%B8%E7%94%9F%E8%A8%AD%E8%A8%88%E7%A8%BF?node-id=236-1109) 製作
 - 進度如下：
-    - LV1：做出一頁RWD網頁頁面，於2025/06/07完成blog-detail。
-    - LV2：做出兩頁RWD網頁頁面，於2025/06/08完成檔案為blog。
+    - LV1：做出一頁RWD網頁頁面，於2025/06/07完成blog-detail
+    - LV2：做出兩頁RWD網頁頁面，於2025/06/08完成檔案為blog
 ---
