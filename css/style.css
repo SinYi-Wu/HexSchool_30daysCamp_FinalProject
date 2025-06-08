@@ -64,7 +64,7 @@ body{
 
 img{
   vertical-align: middle;
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -110,11 +110,11 @@ a{
 }
 
 .theme-img{
-  width: 48%;
+  width: 50%;
 }
 
 .theme-content{
-  width: 48%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -166,7 +166,7 @@ a{
   .theme-content{
     width: 100%;
     padding: 48px 12px;
-  }
+  } 
 
 }
 
